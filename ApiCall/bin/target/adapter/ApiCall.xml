@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	Licensed Materials - Property of IBM
+	5725-I43 (C) Copyright IBM Corp. 2011, 2016. All Rights Reserved.
+	US Government Users Restricted Rights - Use, duplication or
+	disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
+-->
+<mfp:adapter name="ApiCall"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:mfp="http://www.ibm.com/mfp/integration"
+	xmlns:http="http://www.ibm.com/mfp/integration/http">
+
+	<displayName>ApiCall</displayName>
+	<description>ApiCall</description>
+
+	<JAXRSApplicationClass>com.yesbank.ApiCallApplication</JAXRSApplicationClass>
+
+	<property name="adapterUrl" displayName="adapterUrl" defaultValue="http://localhost:9081/mobilebanking/api/adapters/"  />
+	<property name="accessValue" displayName="accessValue" defaultValue="646f04fe-f818-4a03-a321-124e5b9c9700"  />
+	<property name="ibmClientName" displayName="ibmClientName" defaultValue="0409e910-a1d4-4d25-a079-f9e8fe59b0aa"  />
+	<property name="ibmClientValue" displayName="ibmClientValue" defaultValue="mV6sH2jV4tE8sM1nD7bQ7iM6sO4kB1uK5uU7kF1wU7uO6lH4yV"  />
+</mfp:adapter>
